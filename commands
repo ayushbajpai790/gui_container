@@ -1,0 +1,5 @@
+commands used in task 2:
+docker  -- version (to see the version of docker)
+docker pull centos:latest (to pull the centos image)
+docker run -it --name ayush6 centos:latest (to run a container)
+docker run -it — name ayush8 — net=host — env=”DISPLAY” — volume=”$HOME/ .Xauthority:/root/.Xauthority:rw” centos:latest ( to run a container with Xserver)
